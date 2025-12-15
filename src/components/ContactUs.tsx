@@ -49,9 +49,9 @@ const ContactUs = () => {
           <span className="inline-block text-sm font-semibold text-primary bg-primary/10 rounded-full px-4 py-1.5 mb-4">
             Get In Touch
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+          {/* <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Contact <span className="text-gradient">Us</span>
-          </h2>
+          </h2> */}
           <p className="text-lg text-muted-foreground">
             Have questions? We're here to help you start your journey to success
           </p>

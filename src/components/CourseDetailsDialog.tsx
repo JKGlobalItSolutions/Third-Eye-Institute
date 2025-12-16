@@ -18,10 +18,10 @@ const CourseDetailsDialog = ({ children, courseTitle }: CourseDetailsDialogProps
   const courseData: Record<string, { duration: string }> = {
     "Bank Exam Coaching": { duration: "6 Months" },
     "SSC Coaching": { duration: "6 Months" },
-    "Railway Exam Coaching": { duration: "4 Months" },
+    "Railway Exam Coaching": { duration: "6 Months" },
     "UPSC Coaching": { duration: "1 Year" },
-    "Police & Defence Coaching": { duration: "4 Months" },
-    "Insurance Exam Coaching": { duration: "5 Months" },
+    "Police & Defence Coaching": { duration: "6 Months" },
+    "Insurance Exam Coaching": { duration: "6 Months" },
   };
   
   const duration = courseData[courseTitle]?.duration || "6 Months";
@@ -75,8 +75,8 @@ const CourseDetailsDialog = ({ children, courseTitle }: CourseDetailsDialogProps
       ],
     },
     "Police & Defence Coaching": {
-      overview: "Focused preparation for TNPSC, Police SI, Constable, NDA, CDS, and all defence-related examinations. Physical training guidance also provided.",
-      syllabus: ["General Tamil/English", "Current Affairs", "General Knowledge", "Aptitude & Reasoning", "Constitution of India", "History & Geography"],
+      overview: "Focused preparation for TNPSC, Police SI,Police Constable, NDA, CDS, and all defence-related examinations. Physical training guidance also provided.",
+      syllabus: ["General Tamil/English", "General Knowledge","Current Affairs (State, National & International", "Aptitude & Logical Reasoning", "Constitution of India", " Geography","Indian & Tamil Nadu History"],
       howToCrack: [
         "Master Tamil Nadu history and culture",
         "Practice aptitude questions regularly",
@@ -88,14 +88,15 @@ const CourseDetailsDialog = ({ children, courseTitle }: CourseDetailsDialogProps
     },
     "Insurance Exam Coaching": {
       overview: "Specialized coaching for LIC AAO, LIC ADO, NIACL, UIIC, and other insurance sector examinations. Learn insurance-specific knowledge from industry experts.",
-      syllabus: ["Quantitative Aptitude", "Reasoning", "English Language", "General Awareness", "Insurance Awareness", "Computer Knowledge"],
+      syllabus: ["Quantitative Aptitude", "Reasoning", "English Language", "General Awareness", "Insurance Awareness", "Computer Knowledge(as per exam pattern)"],
       howToCrack: [
         "Understand insurance industry basics",
         "Practice numerical ability questions",
         "Learn insurance terminologies",
         "Stay updated with insurance sector news",
         "Attempt sectional tests regularly",
-        "Focus on interview preparation"
+        "Focus on interview preparation",
+        "Revise insurance concepts and terms regularly"
       ],
     },
   };

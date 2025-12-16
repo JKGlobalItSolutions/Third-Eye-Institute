@@ -44,7 +44,7 @@ const Navbar = () => {
               className="w-12 h-12 object-contain rounded-xl"
             />
             <div className="hidden sm:block">
-              <h1 className="font-bold text-foreground leading-tight">Third Eye Institute</h1>
+              <h1 className="font-bold text-foreground leading-tight">Third Eye TNPSC Academy</h1>
               <p className="text-xs text-muted-foreground">A Gateway of Government Jobs</p>
             </div>
           </Link>

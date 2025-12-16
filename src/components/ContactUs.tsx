@@ -141,9 +141,9 @@ const ContactUs = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Our Location</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      No. 87, Mathalankula Street,<br />
-                      Pavazhakundur, Thiruvannamalai – 600601<br />
-                      <span className="text-sm italic">Landmark: Near Periyar Statue</span>
+                       No:249, Swamy street, Vellore main road,<br />
+                      Katpadi, Vellore-632007, Tamilnadu<br />
+                      <span className="text-sm italic">Landmark: Near chittoor bus stop</span>
                     </p>
                   </div>
                 </div>
@@ -156,8 +156,8 @@ const ContactUs = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Contact Person</h4>
                     <p className="text-muted-foreground">
-                      Manikam<br />
-                      <a href="tel:+919876543210" className="text-primary hover:underline">+91 98765 43210</a>
+                      {/* Manikam<br /> */}
+                      <a href="tel:+919876543210" className="text-primary hover:underline"> +91 86808 04446</a>
                     </p>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ const ContactUs = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email Us</h4>
                     <a href="mailto:info@thirdeyebanking.com" className="text-primary hover:underline">
-                      info@thirdeyebanking.com
+                       thirdeyeinstitutevellore@gmail.com
                     </a>
                   </div>
                 </div>

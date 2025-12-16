@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            Third Eye Institute of Banking empowers aspirants with expert coaching, 
+            Third Eye TNPSC Academy empowers aspirants with expert coaching, 
             comprehensive study materials, and personalized guidance to crack 
             competitive exams with confidence.
           </p>

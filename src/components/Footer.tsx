@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="flex items-center gap-4 mb-6">
               <img src={logo} alt="Third Eye TNPSC Academy Logo" className="w-20 h-20 object-contain rounded-2xl shadow-lg" />
               <div>
-                <h3 className="font-bold text-xl text-foreground">THIRD EYE INSTITUTE</h3>
+                <h3 className="font-bold text-xl text-foreground text-gradient">THIRD EYE TNPSC ACADEMY</h3>
                 <p className="text-sm text-muted-foreground">A Gateway of Government Jobs</p>
               </div>
             </div>

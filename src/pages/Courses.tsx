@@ -55,9 +55,9 @@ const courses = [
   {
     icon: ShieldCheck,
     title: "Insurance Exam Coaching",
-    description: "Preparation for LIC AAO, NIACL AO, UIIC AO, and other insurance sector exams.",
+    description: "Comprehensive coaching for LIC, NIACL, UIIC, AIC, and other insurance exams with expert faculty",
     duration: "5 Months",
-    features: ["Reasoning", "English", "Quantitative Aptitude", "Insurance Awareness"],
+    features: ["Reasoning Ability", "English", "Quantitative Aptitude", "Insurance Awareness","Current Affairs (Banking & Insurance Focus)","Computer Knowledge (as per exam pattern)"],
   },
 ];
 

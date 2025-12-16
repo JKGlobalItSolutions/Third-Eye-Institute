@@ -14,12 +14,12 @@ const About = () => {
           <div className="absolute bottom-20 -left-20 w-72 h-72 bg-secondary/10 rounded-full blur-3xl" />
         </div>
         <div className="container mx-auto px-6 relative">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About <span className="text-gradient">Third Eye Institute</span>
+              About <span className="text-gradient">Third Eye TNPSC Academy</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              A Gateway to Government Jobs - Empowering thousands of aspirants since 2008
+              A Gateway to Government Jobs - Empowering thousands of aspirants since 2011
             </p>
           </div>
         </div>
@@ -32,12 +32,12 @@ const About = () => {
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Story</h2>
             <div className="glass-card rounded-3xl p-8 md:p-12">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Third Eye Institute of Banking, established in 2008, has been a beacon of hope for thousands of aspirants 
+                  Third Eye TNPSC Academy, established in 2011, has been a beacon of hope for thousands of aspirants 
                 dreaming of securing government jobs. Located in the heart of Thiruvannamalai, we have grown from a small 
                 coaching center to one of the most trusted institutions for competitive exam preparation in Tamil Nadu.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Our name "Third Eye" symbolizes the clarity of vision and wisdom we aim to instill in our students. 
+                Our name "Third Eye Academy" symbolizes the clarity of vision and wisdom we aim to instill in our students. 
                 We believe that with the right guidance, dedication, and hard work, every student can achieve their 
                 dream of securing a government job.
               </p>

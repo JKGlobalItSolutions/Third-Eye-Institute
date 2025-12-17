@@ -119,9 +119,9 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-muted-foreground text-sm">
+            <div className="flex items-center gap-3">
               © 2024 Third Eye TNPSC Academy. All rights reserved.
-            </p>
+            </div>
             <div className="flex items-center gap-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>

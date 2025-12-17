@@ -191,41 +191,32 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Map mockup */}
+            {/* Google Maps Embed */}
             <div className="relative rounded-3xl overflow-hidden shadow-card h-72">
-              {/* Map background with gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-sky-100 to-blue-200">
-                {/* Grid pattern for map aesthetic */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--primary)/0.1)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--primary)/0.1)_1px,transparent_1px)] bg-[size:2rem_2rem]" />
-                
-                {/* Decorative map elements */}
-                <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-primary/10 rounded-full blur-xl" />
-                <div className="absolute bottom-1/4 right-1/4 w-24 h-24 bg-secondary/10 rounded-full blur-xl" />
-                
-                {/* Roads mockup */}
-                <div className="absolute top-1/2 left-0 right-0 h-4 bg-primary/20 -rotate-12" />
-                <div className="absolute top-1/3 left-1/3 bottom-1/4 w-3 bg-primary/15" />
-              </div>
-
-              {/* Location pin */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full">
-                <div className="relative animate-bounce">
-                  <div className="w-12 h-12 gradient-primary rounded-full flex items-center justify-center shadow-lg">
-                    <Navigation className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-4 h-4 gradient-primary rotate-45" />
-                </div>
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-8 h-2 bg-foreground/20 rounded-full blur-sm" />
-              </div>
-
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1234567890!2d79.1234567!3d12.9876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU5JzE0LjQiTiA3OcKwMDcnMjguNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Third Eye Institute Location"
+                className="rounded-3xl"
+              ></iframe>
+              
               {/* Glass overlay with address */}
               <div className="absolute bottom-4 left-4 right-4 glass-card rounded-2xl p-4">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="font-semibold text-foreground text-sm">Third Eye Institute</p>
-                    <p className="text-xs text-muted-foreground">Thiruvannamalai</p>
+                    <p className="text-xs text-muted-foreground">Vellore, Tamilnadu</p>
                   </div>
-                  <Button variant="gradient" size="sm">
+                  <Button 
+                    variant="gradient" 
+                    size="sm"
+                    onClick={() => window.open('https://maps.app.goo.gl/N4VhyvawzxKLU4366', '_blank')}
+                  >
                     Get Directions
                   </Button>
                 </div>

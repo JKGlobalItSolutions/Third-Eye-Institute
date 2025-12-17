@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { BookOpen, Award, Users, GraduationCap } from "lucide-react";
 import EnrollmentDialog from "@/components/EnrollmentDialog";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleExploreCourses = () => {
+    navigate('/courses');
+  };
+
   return (
     <section className="relative min-h-screen gradient-hero overflow-hidden">
       {/* Background decorative elements */}
@@ -44,7 +51,7 @@ const Hero = () => {
                 Start Your Journey
               </Button>
             </EnrollmentDialog>
-            <Button variant="outline" size="xl">
+            <Button variant="outline" size="xl" onClick={handleExploreCourses}>
               Explore Courses
             </Button>
           </div>

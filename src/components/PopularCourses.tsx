@@ -41,7 +41,7 @@ const courses = [
   {
     icon: Shield,
     title: "Police & Defence",
-    description: "TNPSC, Police SI, Constable, NDA, CDS exams",
+    description: "Police , Sup inspector, BSF, CRPF, RPF, DELHI POLICE, NDA, CDS, AFCAT, SAINIC SCHOOL EXAM, and other exam",
     duration: "6 Months",
   },
   {

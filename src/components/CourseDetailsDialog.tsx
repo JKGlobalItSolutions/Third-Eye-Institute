@@ -87,7 +87,7 @@ const CourseDetailsDialog = ({ children, courseTitle }: CourseDetailsDialogProps
       ],
     },
     "Insurance Exam Coaching": {
-      overview: "Specialized coaching for LIC AAO, LIC ADO, NIACL, UIIC, and other insurance sector examinations. Learn insurance-specific knowledge from industry experts.",
+      overview: "Specialized coaching for LIC ADO AAO ORIENTAL INSURANCE, IRDAI, NICL,   and Other Insurance exams. Learn insurance-specific knowledge from industry experts.",
       syllabus: ["Quantitative Aptitude", "Reasoning", "English Language", "General Awareness", "Insurance Awareness", "Computer Knowledge(as per exam pattern)"],
       howToCrack: [
         "Understand insurance industry basics",

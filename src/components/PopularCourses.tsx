@@ -47,7 +47,7 @@ const courses = [
   {
     icon: Briefcase,
     title: "Insurance Exams",
-    description: "LIC AAO, LIC ADO, NIACL, UIIC & insurance sector",
+    description: "LIC ADO AAO ORIENTAL INSURANCE, IRDAI, NICL,   and Other Insurance exams",
     duration: "3 Months",
   },
 ];
